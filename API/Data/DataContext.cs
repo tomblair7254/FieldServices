@@ -11,7 +11,7 @@ namespace API.Data
 
         public DbSet<Inventory>Inventories  { get; set; }
         public DbSet<Other> Others { get; set; }
-        public DbSet<Photo> Photos { get; set; }
+        // public DbSet<Photo> Photos { get; set; }
         public DbSet<User> Users { get; set; }
     }
 }
